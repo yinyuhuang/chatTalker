@@ -1,0 +1,68 @@
+.header{
+    padding-bottom: 117px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.social_media{
+    margin-bottom: 100px;
+}
+
+.role{
+    margin-bottom: 100px;
+}
+
+.customer{
+    margin-bottom: 100px;
+    .customer_item{
+        width: 230px;
+        margin-right: 24px;
+        padding: 32px 32px 48px 32px;
+        .customer_item_icon{
+            width: 86px;
+            padding: 16px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.score{
+    margin-bottom: 100px;
+    .personal{
+        width: 80px;
+        height: 80px;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user01.jpg);
+        background-repeat:no-repeat;
+        background-size:80px;
+    }
+    .personal2{
+        width: 80px;
+        height: 80px;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user02.jpg);
+        background-repeat:no-repeat;
+        background-size:80px;
+    }
+    .personal3{
+        width: 80px;
+        height: 80px;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user03.jpg);
+        background-repeat:no-repeat;
+        background-size:80px;
+    }
+}
+
+.cta{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg);
+    background-repeat:no-repeat;
+    background-size: 1366px;
+    h4{
+        margin-top: 260px;
+    }
+    button{
+        margin-bottom: 100px;
+    }
+}
